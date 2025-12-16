@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: korbato
+    description: "korbato source tables from dbo schema"
+    schema: dbo
+    tables:
+      - name: fleet
+
+
