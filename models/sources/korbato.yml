@@ -6,5 +6,7 @@ sources:
     schema: dbo
     tables:
       - name: fleet
+      - name: vehicle_day
+      - name: trip
 
 

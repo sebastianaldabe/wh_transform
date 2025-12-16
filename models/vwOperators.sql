@@ -1,5 +1,6 @@
 {{ config(
-    materialized='view'
+    materialized='view',
+    tag='analytics'
 ) }}
 
 SELECT DISTINCT operator_id, fleet_name as operator_name
